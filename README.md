@@ -3,7 +3,7 @@ React flexbox implementation similar to Polymer Layout Attributes.
 
 ## Installation
 ```
-npm install --save react-flex-component
+npm install --save react-flexbox2
 ```
 
 ## Usage
