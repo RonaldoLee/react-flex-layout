@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "react-flexbox2": "0.0.1"
   },
   "devDependencies": {
     "http-server": "^0.8.0",

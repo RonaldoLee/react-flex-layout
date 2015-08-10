@@ -1,5 +1,5 @@
 'use strict';
 var React = require('react');
-var Hello = require('./Hello');
+var FlexboxExample = require('./FlexboxExample');
 
-React.render(<Hello />, document.getElementById('content'));
+React.render(<FlexboxExample />, document.getElementById('content'));

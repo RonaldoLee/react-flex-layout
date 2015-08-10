@@ -1,7 +1,7 @@
 'use strict';
-var ReactElement  = require('react/lib/ReactElement');
-var FlexBox = require('../index.jsx');
-var React = require('react');
+
+var React   = require('react');
+var FlexBox = require('react-flexbox2');
 
 module.exports = React.createClass({
     render: function(){
