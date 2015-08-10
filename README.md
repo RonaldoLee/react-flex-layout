@@ -1,4 +1,4 @@
-# react-flex-layout
+# react-flexbox2
 React flexbox implementation similar to Polymer Layout Attributes.
 
 ## Installation
