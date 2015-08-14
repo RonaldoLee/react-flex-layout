@@ -77,6 +77,15 @@ var buildProps = function(props) {
             style.flexBasis = props["flexBasis"] || props["flex-basis"];
         }
 
+        // Item Attribute: flex
+        if (typeof(props.flex) === "number") {
+            style.flexGrow = props.flex;
+        } else if (typeof(props.flex) === "string") {
+            style.flex = props.flex;
+        } else if (props.flex) {
+            style.flex = "1 1 auto";
+        }
+
         return {
             style: assign(props.style || {}, style)
         };

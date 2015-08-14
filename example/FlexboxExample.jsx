@@ -7,7 +7,7 @@ module.exports = React.createClass({
     render: function(){
         return (
             <div layout horizontal stretch wrap justified style={{height: 100}}>
-                <div style={{padding: 4, margin: 10, backgroundColor: "orange"}} self-end flex-grow="1">A</div>
+                <div style={{padding: 4, margin: 10, backgroundColor: "orange"}} self-end flex="4">A</div>
                 <div style={{padding: 4, margin: 10, backgroundColor: "orange"}} order="1" flex-grow="1">B</div>
                 <div style={{padding: 4, margin: 10, backgroundColor: "orange"}} order="2" flex-grow="2">C</div>
                 <div style={{padding: 4, margin: 10, backgroundColor: "orange"}} flex-grow="1" flex-basis="200px">D</div>
